@@ -17,6 +17,7 @@ class Program
         {
             Guess = Convert.ToInt32(Console.Read());
             Console.WriteLine("Try again! The answer was " + returnValue);
+            Console.ReadLine();
         }
         if (Guess == returnValue)
         {
