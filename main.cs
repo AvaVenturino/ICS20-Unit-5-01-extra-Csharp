@@ -24,5 +24,4 @@ class Program
             Console.ReadLine();
         }
     }
-}
-  
+}  
