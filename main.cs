@@ -11,15 +11,15 @@ class Program
     {
         Random random = new Random();
         int returnValue = random.Next(1, 6);
-        int Guess = 0;
+        int guess = 0;
         Console.WriteLine("Think of a number between 1-6. Can you guess what it is?");
-        if (Guess != returnValue)
+        if (guess != returnValue)
         {
-            Guess = Convert.ToInt32(Console.Read());
+            guess = Convert.ToInt32(Console.Read());
             Console.WriteLine("Try again! The answer was " + returnValue);
             Console.ReadLine();
         }
-        if (Guess == returnValue)
+        if (guess == returnValue)
         {
             Console.WriteLine("Well done! The answer was " + returnValue);
             Console.ReadLine();
